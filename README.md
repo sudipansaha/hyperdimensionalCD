@@ -1,6 +1,9 @@
-# DCVA: change detection in VHR optical images
+# Hyperdimensional CD using untrained models
 
-## Implementation of Deep Change Vector Analysis (DCVA) change detection (CD) method for very high resolution (VHR) optical images.
+## Change detection in hyperspectral images
+## Change detection in any other hyperdimensional images
+
+The proposed method uses an untrained lightweight deep model, initialized with some weight initialization strategy for feature extraction from bi-temporal hyperdimensional images.
 
 DCVA processes pre-change and post-change images through a pre-trained network and extracts bi-temporal deep features for subsequent processing in CD framework. For details, please read the paper: <br/>
 Saha, S., Bovolo, F. and Bruzzone, L., 2019. Unsupervised deep change vector analysis for multiple-change detection in VHR images. IEEE Transactions on Geoscience and Remote Sensing, 57(6), pp.3677-3693.
@@ -34,14 +37,11 @@ Please note the method is not an exact replication of the abovementioned paper. 
 ### Citation
 If you find this code useful, please consider citing:
 ```[bibtex]
-@article{saha2019unsupervised,
-  title={Unsupervised deep change vector analysis for multiple-change detection in VHR images},
-  author={Saha, Sudipan and Bovolo, Francesca and Bruzzone, Lorenzo},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
-  volume={57},
-  number={6},
-  pages={3677--3693},
-  year={2019},
+@article{saha2021change,
+  title={Change Detection in Hyperdimensional Images using Untrained Modelss},
+  author={Saha, Sudipan and Kondmann, Lukas and Song, Qian and Zhu, Xiao Xiang},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}
+  year={2021},
   publisher={IEEE}
 }
 ```
