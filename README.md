@@ -16,7 +16,7 @@ The manual seed can be varied.
 If you find this code useful, please consider citing:
 ```[bibtex]
 @article{saha2021change,
-  title={Change Detection in Hyperdimensional Images using Untrained Modelss},
+  title={Change Detection in Hyperdimensional Images using Untrained Models},
   author={Saha, Sudipan and Kondmann, Lukas and Song, Qian and Zhu, Xiao Xiang},
   journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}
   year={2021},
